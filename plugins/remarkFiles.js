@@ -50,7 +50,7 @@ export default function remarkFiles(options = { authorId, filesMap }) {
       }
 
       // If this is a video file, change hName from image to video
-      if (/\.(mp4|mov)\?/i.test(node.url)) {
+      if (/\.(mp4|mov)\??/i.test(node.url)) {
         node["data"] = {
           ...node.data,
           hName: "video",
