@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.js",
+  "dependencies": {
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.0",
+    "unified": "^11.0.4"
+  }
+}
